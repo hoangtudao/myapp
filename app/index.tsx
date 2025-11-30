@@ -1,4 +1,3 @@
-import React from 'react';
 import { Text, View } from 'react-native';
 
 export default function App() {
@@ -8,7 +7,7 @@ export default function App() {
       {/* Ô đỏ nhỏ hơn */}
       <View
         style={{
-          flex: 2,                     // 🔹 Giảm từ 2 xuống 1 để nhỏ lại
+          flex: 2,                     // Giảm từ 2 xuống 1 để nhỏ lại
           backgroundColor: 'red'
         }}
       />
@@ -51,9 +50,9 @@ export default function App() {
       {/* Phần xanh dương có ô vàng chạm đáy */}
       <View
         style={{
-          flex: 8,                      // 🔹 Tăng flex phần xanh dương cho hợp lý
+          flex: 8,                      //  Tăng flex phần xanh dương cho hợp lý
           backgroundColor: 'skyblue',
-          justifyContent: 'flex-end',   // 🔹 Đưa nội dung xuống đáy
+          justifyContent: 'flex-end',   //  Đưa nội dung xuống đáy
           alignItems: 'center'
         }}
       >
@@ -64,7 +63,7 @@ export default function App() {
             backgroundColor: 'gold',
             justifyContent: 'center',
             alignItems: 'center',
-            marginBottom: 0              // 🔹 Đảm bảo chạm hẳn đáy
+            marginBottom: 0              //  Đảm bảo chạm hẳn đáy
           }}
         >
           <Text style={{ fontSize: 22, fontWeight: 'bold' }}>ABC</Text>
